@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Ragnarok
+Label: Ragnarok
+Suite: stable
+Codename: 01
+Date: Thu, 24 Oct 2024 15:28:14 UTC
+Architectures: amd64
+Components: main
+Description: Ragnarok's deb package repository for the Linux kernel
+MD5Sum:
+ d37887ff2886a581cf69f9473a7fd01d 2266 main/binary-amd64/Packages
+ 5c0f1f218ae582131feb448575afbc66 863 main/binary-amd64/Packages.gz
+ 842cfc2e3bbfc6ee970b39d719193d3e 153 main/binary-amd64/Release
+SHA1:
+ 320fd16e5d2a74e90e7f4bc0c8624ae4f1bf33b0 2266 main/binary-amd64/Packages
+ a8a466e933714cf89bbd8c81bee29f6d009784d6 863 main/binary-amd64/Packages.gz
+ 343a0f51392f0729e19c51e5d0562d3546ead129 153 main/binary-amd64/Release
+SHA256:
+ 4998d9b214dc1d91a8dccab4bacd1f921aaf9046d73c80a98412e19e46a2c48c 2266 main/binary-amd64/Packages
+ 844b9a1658d56b2afc7258d2df4e39d47c6042b08d2a8bc8d50eddd73fe3813f 863 main/binary-amd64/Packages.gz
+ 8fbb2c0a1dcc302b4453d5187d0de364cbfeb0e17ecd8a30e48c8b2fb597aa0f 153 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQQd07yWiPPvmI0+oCME+3X+t3o0LwUCZxpnjgAKCRAE+3X+t3o0
+L9LiAQDYnT3gCCl6+IaWSSbVBzfLNZQiK108tjXnV1FDX7WSQAD+J1MuVMVxlD1d
+QGD3LTSzunPJ4lbJkUOG5FDPLuOuaAA=
+=ZnU5
+-----END PGP SIGNATURE-----

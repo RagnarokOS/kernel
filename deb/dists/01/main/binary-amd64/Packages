@@ -1,0 +1,57 @@
+Package: linux-headers-6.1.112-ragnarok-amd64
+Source: linux-upstream
+Version: 6.1.112-ragnarok-amd64-1
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 51916
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.112-ragnarok-amd64_6.1.112-ragnarok-amd64-1_amd64.deb
+Size: 8785084
+SHA256: 37e1491dd7c0365b8fbebbfecd84748c91b395b4dd04d23d2640073dc50b3a70
+SHA1: bdcc8d2f0770fa23526727231050eead5e74b266
+MD5sum: 1247857b3efcf9471e62c99269dfe86f
+Description: Linux kernel headers for 6.1.112-ragnarok-amd64 on amd64
+ This package provides kernel header files for 6.1.112-ragnarok-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.1.112-ragnarok-amd64
+Source: linux-upstream
+Version: 6.1.112-ragnarok-amd64-1
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 409820
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.112-ragnarok-amd64_6.1.112-ragnarok-amd64-1_amd64.deb
+Size: 65817888
+SHA256: 08a0337e29b873feba8834d4068aae3d5dd797715608ea64c4c9722bcc2ed51f
+SHA1: 5afff36ad002907f12919c94be0519bf2674cee7
+MD5sum: db3618e274c7cb0a9045ab0db5b8b339
+Description: Linux kernel, version 6.1.112-ragnarok-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.112-ragnarok-amd64.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.1.112-ragnarok-amd64-1
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 6625
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.112-ragnarok-amd64-1_amd64.deb
+Size: 1275256
+SHA256: 637fb0d51218f120d989a1b58a33ac802c0508c144a8b5119346deeb375fc627
+SHA1: 64cb1753e5c34fce5e884768811de73c4ad27ec4
+MD5sum: a6155cea99fc3f938a80ca95679a4aaa
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
