@@ -55,3 +55,22 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: ragnarok-kernel
+Version: 01
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 9
+Depends: linux-image-6.1.112-ragnarok-amd64, linux-headers-6.1.112-ragnarok-amd64, linux-libc-dev, initramfs-tools, kmod, linux-base
+Recommends: apparmor, firmware-linux-free
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Filename: pool/main/r/ragnarok-kernel/ragnarok-kernel_01_amd64.deb
+Size: 2364
+SHA256: d4d575bf2abfc770d2a4fe3d7924bde745e072bea5699a217b3ccf0bafab27ea
+SHA1: e8719dbb34fb9c5e5f0a84a82b3dbd612ce8995f
+MD5sum: 1366ac14d8ecc5006ce62b0729e3c601
+Description: meta-package for Ragnarok's kernel.
+ This is a meta-package which depends on Ragnarok's
+ kernel build and dependencies.
+
