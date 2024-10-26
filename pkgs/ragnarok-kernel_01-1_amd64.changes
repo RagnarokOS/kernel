@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 26 Oct 2024 11:01:15 -0400
+Source: ragnarok-kernel
+Binary: ragnarok-kernel
+Architecture: amd64
+Version: 01-1
+Distribution: stable
+Urgency: medium
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Changed-By: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Description:
+ ragnarok-kernel - meta-package for Ragnarok's kernel.
+Changes:
+ ragnarok-kernel (01-1) stable; urgency=medium
+ .
+   * Fix: added missing preinst/postinst/prerm/postrm scripts.
+Checksums-Sha1:
+ 5e215c7bd344f8d2e269be7735d7b75ed7feb8f0 5919 ragnarok-kernel_01-1_amd64.buildinfo
+ 77421ad755419feb325dbced29e440c99effea26 3080 ragnarok-kernel_01-1_amd64.deb
+Checksums-Sha256:
+ a8e0559a41d435c523af1fd1fccbfd35d910b5b586a1059d978df2ad1d75ab7a 5919 ragnarok-kernel_01-1_amd64.buildinfo
+ d33b9a74067ecf56519c425456b2e1677b55570cefba1318c2d4afd353aec9f1 3080 ragnarok-kernel_01-1_amd64.deb
+Files:
+ cd38ef860f1d4451806f94a67a04a632 5919 kernel optional ragnarok-kernel_01-1_amd64.buildinfo
+ cd0a4401254bcb7bff821b463aaf33e5 3080 kernel optional ragnarok-kernel_01-1_amd64.deb

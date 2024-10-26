@@ -2,16 +2,16 @@ Format: 1.0
 Source: ragnarok-kernel
 Binary: ragnarok-kernel
 Architecture: amd64
-Version: 01
+Version: 01-1
 Checksums-Md5:
- 1366ac14d8ecc5006ce62b0729e3c601 2364 ragnarok-kernel_01_amd64.deb
+ cd0a4401254bcb7bff821b463aaf33e5 3080 ragnarok-kernel_01-1_amd64.deb
 Checksums-Sha1:
- e8719dbb34fb9c5e5f0a84a82b3dbd612ce8995f 2364 ragnarok-kernel_01_amd64.deb
+ 77421ad755419feb325dbced29e440c99effea26 3080 ragnarok-kernel_01-1_amd64.deb
 Checksums-Sha256:
- d4d575bf2abfc770d2a4fe3d7924bde745e072bea5699a217b3ccf0bafab27ea 2364 ragnarok-kernel_01_amd64.deb
+ d33b9a74067ecf56519c425456b2e1677b55570cefba1318c2d4afd353aec9f1 3080 ragnarok-kernel_01-1_amd64.deb
 Build-Origin: Ragnarok
 Build-Architecture: amd64
-Build-Date: Thu, 24 Oct 2024 13:10:20 -0400
+Build-Date: Sat, 26 Oct 2024 11:07:27 -0400
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-programs
@@ -177,9 +177,9 @@ Installed-Build-Depends:
  zlib1g (= 1:1.2.13.dfsg-1)
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
- DEB_CFLAGS_SET="-g -O2 -ffile-prefix-map=/home/lecorbeau/.local/src/ragnarok/kernel-build/equivs.lOEwJN=. -fstack-protector-strong -Wformat -Werror=format-security -gdwarf-4 -fstack-clash-protection -fcf-protection"
- DEB_CXXFLAGS_SET="-g -O2 -ffile-prefix-map=/home/lecorbeau/.local/src/ragnarok/kernel-build/equivs.lOEwJN=. -fstack-protector-strong -Wformat -Werror=format-security -gdwarf-4 -fstack-clash-protection -fcf-protection"
+ DEB_CFLAGS_SET="-g -O2 -ffile-prefix-map=/home/user/kernel-build/equivs.ZNzbXK=. -fstack-protector-strong -Wformat -Werror=format-security -gdwarf-4 -fstack-clash-protection -fcf-protection"
+ DEB_CXXFLAGS_SET="-g -O2 -ffile-prefix-map=/home/user/kernel-build/equivs.ZNzbXK=. -fstack-protector-strong -Wformat -Werror=format-security -gdwarf-4 -fstack-clash-protection -fcf-protection"
  DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,-z,now -Wl,--as-needed"
  LANG="en_CA.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1729706149"
+ SOURCE_DATE_EPOCH="1729954875"
