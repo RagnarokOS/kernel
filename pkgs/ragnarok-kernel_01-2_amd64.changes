@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 27 Oct 2024 13:56:49 -0400
+Source: ragnarok-kernel
+Binary: ragnarok-kernel
+Architecture: amd64
+Version: 01-2
+Distribution: unstable
+Urgency: low
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Changed-By: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Description:
+ ragnarok-kernel - meta-package for Ragnarok's kernel.
+Changes:
+ ragnarok-kernel (01-2) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 94cb3fed72f6ddfd3a724669580f7543a1273c45 5919 ragnarok-kernel_01-2_amd64.buildinfo
+ f220af120e577fa7131bbab53afc4e60575688df 2968 ragnarok-kernel_01-2_amd64.deb
+Checksums-Sha256:
+ b287eedfd0df485ae1519243cd2ba18318b3b50a239b0f59a6c44faee652f506 5919 ragnarok-kernel_01-2_amd64.buildinfo
+ aaa5f23b147a2d3ca2cdcb25082ad6ba375ae17474352bfaa235db4ababd5ffc 2968 ragnarok-kernel_01-2_amd64.deb
+Files:
+ 25e869774e045f1bf4309263b333c7f8 5919 kernel optional ragnarok-kernel_01-2_amd64.buildinfo
+ 4144accef67690db467a089ecf3fe023 2968 kernel optional ragnarok-kernel_01-2_amd64.deb

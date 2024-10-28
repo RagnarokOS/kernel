@@ -35,6 +35,24 @@ Description: Linux kernel, version 6.1.112-ragnarok-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.112-ragnarok-amd64.
 
+Package: linux-image-ragnarok-amd64
+Version: 6.1.112
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 9
+Depends: linux-image-6.1.112-ragnarok-amd64, linux-headers-6.1.112-ragnarok-amd64, linux-libc-dev
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-image-ragnarok-amd64/linux-image-ragnarok-amd64_6.1.112_amd64.deb
+Size: 2272
+SHA256: 4f1747e5b665680d6204c9b39a39df91b243eb76c870d0323e1dc132543f1248
+SHA1: 5759812b17596f10bf3914d4ea866ce4470ec430
+MD5sum: 902b501e39764a0aa280b1b1684646de
+Description: meta-package for Ragnarok's kernel.
+ This is a meta-package which depends on Ragnarok's
+ kernel build and dependencies.
+
 Package: linux-libc-dev
 Source: linux-upstream
 Version: 6.1.112-ragnarok-amd64-1
@@ -56,20 +74,20 @@ Description: Linux support headers for userspace development
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: ragnarok-kernel
-Version: 01-1
+Version: 01-2
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
 Installed-Size: 14
-Depends: linux-image-6.1.112-ragnarok-amd64, linux-headers-6.1.112-ragnarok-amd64, linux-libc-dev, initramfs-tools, kmod, linux-base
+Depends: linux-image-ragnarok-amd64, initramfs-tools, kmod, linux-base
 Recommends: apparmor, firmware-linux-free
 Multi-Arch: foreign
 Priority: optional
 Section: kernel
-Filename: pool/main/r/ragnarok-kernel/ragnarok-kernel_01-1_amd64.deb
-Size: 3080
-SHA256: d33b9a74067ecf56519c425456b2e1677b55570cefba1318c2d4afd353aec9f1
-SHA1: 77421ad755419feb325dbced29e440c99effea26
-MD5sum: cd0a4401254bcb7bff821b463aaf33e5
+Filename: pool/main/r/ragnarok-kernel/ragnarok-kernel_01-2_amd64.deb
+Size: 2968
+SHA256: aaa5f23b147a2d3ca2cdcb25082ad6ba375ae17474352bfaa235db4ababd5ffc
+SHA1: f220af120e577fa7131bbab53afc4e60575688df
+MD5sum: 4144accef67690db467a089ecf3fe023
 Description: meta-package for Ragnarok's kernel.
  This is a meta-package which depends on Ragnarok's
  kernel build and dependencies.
