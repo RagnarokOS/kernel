@@ -1,61 +1,61 @@
-Package: linux-headers-6.1.112-ragnarok-amd64
+Package: linux-headers-6.1.115-ragnarok-amd64
 Source: linux-upstream
-Version: 6.1.112-ragnarok-amd64-1
+Version: 6.1.115-ragnarok-amd64-1
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
-Installed-Size: 51916
+Installed-Size: 51927
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.112-ragnarok-amd64_6.1.112-ragnarok-amd64-1_amd64.deb
-Size: 8785084
-SHA256: 37e1491dd7c0365b8fbebbfecd84748c91b395b4dd04d23d2640073dc50b3a70
-SHA1: bdcc8d2f0770fa23526727231050eead5e74b266
-MD5sum: 1247857b3efcf9471e62c99269dfe86f
-Description: Linux kernel headers for 6.1.112-ragnarok-amd64 on amd64
- This package provides kernel header files for 6.1.112-ragnarok-amd64 on amd64
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.115-ragnarok-amd64_6.1.115-ragnarok-amd64-1_amd64.deb
+Size: 8788132
+SHA256: d56f343e9b4c2ceb55853e7998ad1f4b943cd22539543b01a3550035dd92cd7d
+SHA1: 2540943122183b7f53089a8a8374c3574b6e22f7
+MD5sum: 586104585d7c8997754511529185fa31
+Description: Linux kernel headers for 6.1.115-ragnarok-amd64 on amd64
+ This package provides kernel header files for 6.1.115-ragnarok-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.1.112-ragnarok-amd64
+Package: linux-image-6.1.115-ragnarok-amd64
 Source: linux-upstream
-Version: 6.1.112-ragnarok-amd64-1
+Version: 6.1.115-ragnarok-amd64-1
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
-Installed-Size: 409820
+Installed-Size: 409907
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.112-ragnarok-amd64_6.1.112-ragnarok-amd64-1_amd64.deb
-Size: 65817888
-SHA256: 08a0337e29b873feba8834d4068aae3d5dd797715608ea64c4c9722bcc2ed51f
-SHA1: 5afff36ad002907f12919c94be0519bf2674cee7
-MD5sum: db3618e274c7cb0a9045ab0db5b8b339
-Description: Linux kernel, version 6.1.112-ragnarok-amd64
+Filename: pool/main/l/linux-upstream/linux-image-6.1.115-ragnarok-amd64_6.1.115-ragnarok-amd64-1_amd64.deb
+Size: 65829836
+SHA256: 7aab7f14ee45c5dfbe816d69f4257639f8a7125175288aba00cedaf4730b1428
+SHA1: c7e752e65c08c8d8ed73b6a7b7b911cc414c95d8
+MD5sum: 59dcdb2592434bd0662ff7b6f224c3d6
+Description: Linux kernel, version 6.1.115-ragnarok-amd64
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.112-ragnarok-amd64.
+ files, version: 6.1.115-ragnarok-amd64.
 
 Package: linux-image-ragnarok-amd64
-Version: 6.1.112
+Version: 6.1.115
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
 Installed-Size: 9
-Depends: linux-image-6.1.112-ragnarok-amd64, linux-headers-6.1.112-ragnarok-amd64, linux-libc-dev
+Depends: linux-image-6.1.115-ragnarok-amd64, linux-headers-6.1.115-ragnarok-amd64, linux-libc-dev
 Multi-Arch: foreign
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-ragnarok-amd64/linux-image-ragnarok-amd64_6.1.112_amd64.deb
+Filename: pool/main/l/linux-image-ragnarok-amd64/linux-image-ragnarok-amd64_6.1.115_amd64.deb
 Size: 2272
-SHA256: 4f1747e5b665680d6204c9b39a39df91b243eb76c870d0323e1dc132543f1248
-SHA1: 5759812b17596f10bf3914d4ea866ce4470ec430
-MD5sum: 902b501e39764a0aa280b1b1684646de
+SHA256: aeca4b5eee7cfec3f06231bbbb74d87a32248c56c84439b90d5aafed4ae4d507
+SHA1: d0a2ee2b33b6398f369542808eda1f378f80ed50
+MD5sum: 380bcc9422e24480eb491294dcff65bf
 Description: meta-package for Ragnarok's kernel.
  This is a meta-package which depends on Ragnarok's
  kernel build and dependencies.
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.1.112-ragnarok-amd64-1
+Version: 6.1.115-ragnarok-amd64-1
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
 Installed-Size: 6625
@@ -64,17 +64,17 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.112-ragnarok-amd64-1_amd64.deb
-Size: 1275256
-SHA256: 637fb0d51218f120d989a1b58a33ac802c0508c144a8b5119346deeb375fc627
-SHA1: 64cb1753e5c34fce5e884768811de73c4ad27ec4
-MD5sum: a6155cea99fc3f938a80ca95679a4aaa
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.115-ragnarok-amd64-1_amd64.deb
+Size: 1275380
+SHA256: d49871e7067eb68f16d44785130a6beeb0c9a83cece8c78cbd9f82a9dd176d09
+SHA1: 444f5b41e86b644545b32e0298ce1a403f715378
+MD5sum: fe7ea368acd262f5f6099af8e55332f5
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: ragnarok-kernel
-Version: 01-2
+Version: 01-3
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
 Installed-Size: 14
@@ -83,11 +83,11 @@ Recommends: apparmor, firmware-linux-free
 Multi-Arch: foreign
 Priority: optional
 Section: kernel
-Filename: pool/main/r/ragnarok-kernel/ragnarok-kernel_01-2_amd64.deb
-Size: 2968
-SHA256: aaa5f23b147a2d3ca2cdcb25082ad6ba375ae17474352bfaa235db4ababd5ffc
-SHA1: f220af120e577fa7131bbab53afc4e60575688df
-MD5sum: 4144accef67690db467a089ecf3fe023
+Filename: pool/main/r/ragnarok-kernel/ragnarok-kernel_01-3_amd64.deb
+Size: 2964
+SHA256: 645616a702f74ae32169424aaff65f7fd39aacb9503a3b2db2bdcea89526e47e
+SHA1: c2cfcdf8dad34bb3f19ecfc0bb802f4d400f2e74
+MD5sum: d350f0a185c1020fd710ef5b1cfbbf70
 Description: meta-package for Ragnarok's kernel.
  This is a meta-package which depends on Ragnarok's
  kernel build and dependencies.
