@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 24 Nov 2024 18:28:18 -0500
+Source: linux-image-ragnarok-amd64
+Binary: linux-image-ragnarok-amd64
+Architecture: amd64
+Version: 6.1.119
+Distribution: unstable
+Urgency: low
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Changed-By: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Description:
+ linux-image-ragnarok-amd64 - meta-package for Ragnarok's kernel.
+Changes:
+ linux-image-ragnarok-amd64 (6.1.119) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 30c96155d2f917d512a822eb36ce2d4685a43022 5986 linux-image-ragnarok-amd64_6.1.119_amd64.buildinfo
+ 06381d54058c5ae90e079477f21f6473511b3b37 2272 linux-image-ragnarok-amd64_6.1.119_amd64.deb
+Checksums-Sha256:
+ cb3321a18ef1c5b18941ace091acae75725bcba1891f65a0b205f1de2ba375bd 5986 linux-image-ragnarok-amd64_6.1.119_amd64.buildinfo
+ 6d47e79ab9811e810d7e7b6542fcff90ea259eb89e9ad9e8ef42e3b6448ad79a 2272 linux-image-ragnarok-amd64_6.1.119_amd64.deb
+Files:
+ 1c0f1aafda79af364b17b06820091724 5986 kernel optional linux-image-ragnarok-amd64_6.1.119_amd64.buildinfo
+ 2858e14928e33bdf97bc8ac00895688f 2272 kernel optional linux-image-ragnarok-amd64_6.1.119_amd64.deb
