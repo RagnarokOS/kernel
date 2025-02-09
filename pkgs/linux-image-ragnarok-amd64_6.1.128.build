@@ -1,0 +1,47 @@
+dpkg-buildpackage: info: source package linux-image-ragnarok-amd64
+dpkg-buildpackage: info: source version 6.1.128
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+make[1]: Entering directory '/mnt/build/kernel-build/equivs.cPnh0l'
+dh clean
+   dh_clean
+make[1]: Leaving directory '/mnt/build/kernel-build/equivs.cPnh0l'
+ debian/rules binary
+make[1]: Entering directory '/mnt/build/kernel-build/equivs.cPnh0l'
+dh binary
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+   dh_prep
+   dh_auto_install --destdir=debian/linux-image-ragnarok-amd64/
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_dwz
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'linux-image-ragnarok-amd64' in '../linux-image-ragnarok-amd64_6.1.128_amd64.deb'.
+make[1]: Leaving directory '/mnt/build/kernel-build/equivs.cPnh0l'
+ dpkg-genbuildinfo --build=binary -O../linux-image-ragnarok-amd64_6.1.128_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../linux-image-ragnarok-amd64_6.1.128_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)
+
+The package has been created.
+Attention, the package has been created in the current directory,
+not in ".." as indicated by the message above!
